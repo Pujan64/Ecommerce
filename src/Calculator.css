@@ -1,0 +1,57 @@
+.calculator {
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 30px;
+}
+
+.input-group label{
+  font-weight: bold;
+}
+
+.input-field {
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+.calculate-button {
+  width: 100%;
+  height: 40px; /* increased height for better visibility */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px; /* increased font size for better readability */
+  font-weight: bold; /* added bold font weight for better visibility */
+}
+
+.calculate-button:hover {
+  background-color: #df9165;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* added box shadow on hover */ 
+  text-shadow: 0 0 10px #000000;
+}
+
+.result {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
